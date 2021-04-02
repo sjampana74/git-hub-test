@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker {
+    dockerfile {
       /*
         * The Default is "Dockerfile" but this can be changed.
         * This will build a new container based on the contents of "Dockerfile.alternate"
