@@ -7,7 +7,7 @@ pipeline {
         * and run the pipline inside this container
         */
       filename "Dockerfile.alternate"
-      args "-v /tmp:/tmp -w /tmp -p 8000:8000"
+      args "-v /var/lib/jenkins/workspace/sample4:/tmp -w /tmp -p 8000:8000"
       reuseNode true
     }
   }
