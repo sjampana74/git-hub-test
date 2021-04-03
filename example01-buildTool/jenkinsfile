@@ -18,6 +18,8 @@ pipeline {
       }
       steps {
         echo "hello"
+        echo "Ramu is our Super Student No.1"
+        echo "Phani is our Southend Council and Training Manager No.1"
       }
     }
   }
