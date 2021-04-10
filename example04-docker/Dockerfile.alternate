@@ -1,6 +1,5 @@
 FROM tomcat:latest
 LABEL maintainer="Shyam Sundar"
-#ADD ./webapp/target/*.war /usr/local/tomcat/webapps/
 COPY ./DockerExample.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
