@@ -8,7 +8,7 @@ pipeline {
         */
       filename "Dockerfile.alternate"
       // args "-v /var/lib/jenkins/workspace/example04-docker/Dockerfile.alternate:/var/lib/jenkins/workspace/example04-docker/Dockerfile.alternate -p 8000:8000"
-      args "-v /tmp/Dockerfile.alternate:/var/lib/jenkins/workspace/example04-docker/Dockerfile.alternate -p 8000:8000"
+      args "-v /tmp/Dockerfile.alternate:/tmp/Dockerfile.alternate -p 8000:8000"
       reuseNode true
     }
   }
